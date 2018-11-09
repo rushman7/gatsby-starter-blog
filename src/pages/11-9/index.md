@@ -62,7 +62,8 @@ data retrieval. Another major bug that was run into and still has yet to be solv
 graphql automatic prisma post-deploy update. This means that when the `prisma deploy`
 command is run in terminal it will update any changes we made to the database and graphql
 has an integrated function that reads the Prisma data-model and automatically updates their
-schema. ![post-deploy-error](https://trello-attachments.s3.amazonaws.com/5be072f2afaae80c3eb430d3/5be345cf59f374646837197a/0421757f69501963fe4ed5333197fc0f/c8bc4f23d25772654faf1d1fcc9f81d0.png) The error has persisted through every possible fix that 
+schema. ![post-deploy-error](https://trello-attachments.s3.amazonaws.com/5be072f2afaae80c3eb430d3/5be345cf59f374646837197a/0421757f69501963fe4ed5333197fc0f/c8bc4f23d25772654faf1d1fcc9f81d0.png) 
+The error has persisted through every possible fix that 
 google-fu had to offer and it still remains today, however there is a fairly simple 
 work-around to this was to manually enter the graphql command in terminal:
 `graphql get-schema --project prisma`. I also made my relational type sets such as
