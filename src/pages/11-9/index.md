@@ -4,6 +4,8 @@ date: "2018-11-09T22:40:32.169Z"
 ---
 https://github.com/Lambda-School-Labs/Labs8-Cookbook/graphs/contributors - rushman7
 
+## Weekly Question
+
 This first week introduction to Labs has been an eye opener and a glimpse into
 the professional developer life. I saw what it meant to work with a team of 
 colleagues in a development environment and how challenging it can be to co-work
@@ -16,7 +18,12 @@ that you've never used before especially with the time crunch we have it was
 imperative that we have it up and running before the weekend. Fortunately we were
 able to meet MVP expectations and go above and beyond this week with getting 
 user authentication up and running via bcrypt and jwt on the back-end as well as
-multiple well designed components on the front-end via React. 
+multiple well designed components on the front-end via React. I helped the team
+solidify as a group with constant meeting's between everyone. On a daily bases out
+of the 8 hours in the day we would all be in a zoom with one-another for a minimum
+of 3 hours of that total time. My urge to progress forward and account for tasks 
+that are not in our current goal-set is definitely something that can cause friction
+in the group as it can easily delay our entire process to create a niche that i made.
 
 ## Front End
 
@@ -62,3 +69,8 @@ work-around to this was to manually enter the graphql command in terminal:
 "ingredient-recipe" and "ingredients" but left those commented out until we get
 the basics setup.
 
+
+## MVP 
+
+* Deployed Front End: lambda-cookbook.netlify.com
+* Deployed Back End: https://lambda-cookbook.herokuapp.com/
