@@ -38,3 +38,26 @@ multiple well designed components on the front-end via React.
   * https://github.com/Lambda-School-Labs/Labs8-Cookbook/pull/10
   * https://trello.com/c/qDjIA90T/25-database-user-and-recipe-data-type
 
+## Prisma User Authentication and Query/Mutation:
+
+User Authentication wasn't necessarily difficult but rather lengthy in the process.
+Our project deals with recipes that a user will save onto their account so our
+current biggest hurdle is getting a way to have list data persist when a user is
+authenticated. The work involved creating a type set for both User and Recipe which
+has their own parameters. Prisma does a very good job at bidirectional relationships 
+between set's so getting a recipe to persist on a user was no issue. !(./user-data.png)
+In the image you can see that a recipe was successfully created name Spaghetti with the
+proper parameters. At the bottom the "Authorization" value is coded with the users randomly
+generated jwt. This confirms that the recipe was registered to the user. At the moment my
+current issue is figuring out how to allow Prisma to retrieve the recipe data based on
+the current user. This will take time in itself to create resolvers/functions for 
+data retrieval. Another major bug that was run into and still has yet to be solved is
+graphql automatic prisma post-deploy update. This means that when the `prisma deploy`
+command is run in terminal it will update any changes we made to the database and graphql
+has an integrated function that reads the Prisma data-model and automatically updates their
+schema. !(./post-deploy.png) The error has persisted through every possible fix that 
+google-fu had to offer and it still remains today, however there is a fairly simple 
+work-around to this was to manually enter the graphql command in terminal:
+`graphql get-schema --project prisma`. I also made my relational type sets such as
+"ingredient-recipe" and "ingredients" but left those commented out until we get
+the basics setup.
