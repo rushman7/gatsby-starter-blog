@@ -73,5 +73,5 @@ the basics setup.
 
 ## MVP 
 
-* Deployed Front End: lambda-cookbook.netlify.com
+* Deployed Front End: https://lambda-cookbook.netlify.com
 * Deployed Back End: https://lambda-cookbook.herokuapp.com/
