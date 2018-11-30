@@ -65,3 +65,7 @@ that we have given out
 
 * Deployed Front End: https://lambda-cookbook.netlify.com
 * Deployed Back End: https://lambda-cookbook.herokuapp.com/
+
+## Whiteboarding:
+
+https://www.youtube.com/watch?v=LDWC3qDYYi0
